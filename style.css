@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid blue;
+    border-radius: 50px;
+    position: absolute;
+
+    animation-name: name;
+    animation-duration: 2s;
+    animation-delay: 2px all;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0px;
+        left: 400px;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
